@@ -1,4 +1,4 @@
-Palm PDA OS (uLisp) — LilyGO T-Deck
+ PDA OS (uLisp) — LilyGO T-Deck
 
 A Palm-inspired PDA-style operating system that runs inside uLisp on the LilyGO T-Deck. This project focuses on stability, simplicity, and a retro interface while still allowing complex apps to be built on top. Built using uLisp — full credit to http://www.ulisp.com/
  for the language, firmware, and documentation.

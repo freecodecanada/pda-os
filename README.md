@@ -1,13 +1,13 @@
 Palm PDA OS (uLisp) — LilyGO T-Deck
 
-A Palm-inspired PDA-style operating system that runs inside uLisp on the LilyGO T-Deck. This project focuses on stability, simplicity, and a retro interface while still allowing complex apps to be built on top. Built using uLisp — full credit to https://ulisp.com
+A Palm-inspired PDA-style operating system that runs inside uLisp on the LilyGO T-Deck. This project focuses on stability, simplicity, and a retro interface while still allowing complex apps to be built on top. Built using uLisp — full credit to http://www.ulisp.com/
  for the language, firmware, and documentation.
 
 This is not a traditional operating system. It runs as a persistent uLisp workspace and uses uLisp’s image system to save code and state across reboots. Think of it as a small, self-contained PDA environment built in Lisp.
 
 Requirements: LilyGO T-Deck (ESP32), uLisp firmware installed, and a serial terminal (CoolTerm recommended).
 
-Installing uLisp: Go to https://ulisp.com
+Installing uLisp: Go to http://www.ulisp.com/
  and follow the ESP32 installation instructions for the LilyGO T-Deck. Flash uLisp using the Arduino IDE or PlatformIO. Open a serial terminal and confirm you see the > prompt.
 
 Installing the PDA OS: Open your serial terminal. At the > prompt, paste the OS source one small block at a time, always waiting for the > prompt before pasting the next block. After all blocks are loaded, run (save-image) to store the OS in uLisp’s persistent workspace.
